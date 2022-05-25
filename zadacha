@@ -1,0 +1,85 @@
+Задача №1.
+Разработка системы для продажи и бронирования билетов в кинотеатре
+
+Стек технологий:
+Java 8, DB на ваше усмотрение, Spring(Spring Boot), Rest API,Hibernate/SQL, Docker(будет плюсом)
+
+Каждый кинотеатр имеет свою систему залов и расположение мест в них.
+
+Залы имеют следующие характеристики:
+
+Количество рядов
+Количество мест в каждом ряду.
+Продажа билетов в кинотеатр может осуществляться как в режиме реального времени, так и путем предварительного бронирования билетов (по телефону или самостоятельно на сайте кинотеатра).
+
+Посадочные места на определенный сеанс могут быть в нескольких статусах:
+
+Свободный
+Зарезервировано
+Куплено на
+Не обслуживается.
+
+Чтобы забронировать билеты, клиент должен предоставить следующую информацию кассовому оператору:
+
+Название фильма
+Дата заседания
+Время сеанса
+Количество билетов
+Количество строк (рядов)
+Количество мест (а)
+Фамилия (или другое кодовое слово).
+
+При бронировании места в кинотеатре на этот сеанс, другой человек не может купить билет на это место. Когда клиент, забронировавший место в кинотеатре, приходит в кассу, он должен назвать имя или ввести кодовое слово, чтобы купить билеты на желаемый сеанс.
+
+Зарезервированные билеты должны быть погашены заранее. Если билеты не будут погашены в течение времени, установленного до начала сессии, бронирование сгорает, и любой желающий может купить билеты на забронированные места.
+
+Модуль для менеджера шоу
+Менеджера шоу может добавлять неограниченное количество фильмов, спектаклей, концертов или шоу.
+
+Модуль оплаты
+Печать билетов в PDF (желательно)
+
+
+***************************************************************************
+
+
+Vazifa raqami 1.
+Kinoteatrda chiptalarni sotish va bron qilish tizimini ishlab chiqish
+
+Texnologiya to'plami:
+Java 8, siz tanlagan DB, Spring(Spring Boot), Rest API, Hibernate/SQL, Docker (plyus bo'ladi)
+
+Har bir kinoteatrning o'z zallari tizimi va ulardagi o'rindiqlarning joylashuvi mavjud.
+
+Zal quyidagi xususiyatlarga ega:
+
+Qatorlar soni
+Har bir qatordagi o'rindiqlar soni.
+Kinoteatrga chiptalarni sotish ham real vaqt rejimida, ham chiptalarni oldindan bron qilish (telefon orqali yoki kinoteatr veb-saytida mustaqil ravishda) amalga oshirilishi mumkin.
+
+Muayyan sessiya uchun o'rindiqlar bir nechta maqomga ega bo'lishi mumkin:
+
+Ozod
+zahiraga olingan
+Sotib olingan
+Xizmat ko'rsatilmagan.
+
+Chiptalarni bron qilish uchun mijoz kassirga quyidagi ma'lumotlarni taqdim etishi kerak:
+
+Film nomi
+Uchrashuv sanasi
+Seans vaqti
+Chiptalar soni
+Qatorlar soni (qator)
+O'rindiqlar soni (lar)
+Familiya (yoki boshqa kod so'zi).
+
+Ushbu seans uchun kinoteatrda joy band qilganda, boshqa shaxs bu o'rindiq uchun chipta sotib ololmaydi. Kinoteatrda joy band qilgan mijoz kassaga kelganida, kerakli spektakl uchun chiptalarni sotib olish uchun ism yoki kod so‘zini kiritishi kerak.
+
+Zahira qilingan chiptalar oldindan sotib olinishi kerak. Agar chiptalar sessiya boshlanishidan oldin belgilangan vaqt ichida sotib olinmasa, bron qilish muddati tugaydi va istalgan kishi bron qilingan o'rindiqlarga chipta sotib olishi mumkin.
+
+Menejer modulini ko'rsatish
+Shou menejeri cheksiz miqdordagi filmlar, spektakllar, kontsertlar yoki shoularni qo'shishi mumkin.
+
+To'lov moduli
+Chiptalarni PDF formatida chop etish (afzal)
