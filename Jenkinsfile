@@ -24,7 +24,8 @@ pipeline {
 
     stage("docker run") {
       steps{
-       sh 'docker compose up --build -d'
+        sh 'docker --version'
+//        sh 'docker compose up --build -d'
       }
     }
 }
